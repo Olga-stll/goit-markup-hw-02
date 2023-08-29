@@ -211,11 +211,12 @@ button {
 }
 .lists-button:hover {
   color: #ffffff;
-  background-color: #404bbf;}
+  background-color: #404bbf;
 }
+
 .lists-button:focus {
   color: #ffffff;
-  background-color: #404bbf;}
+  background-color: #404bbf;
 }
 
 .lists-cards-item {
