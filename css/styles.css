@@ -8,6 +8,7 @@ body {
 :root {
   --brend-color: #4d5ae5;
   --span-color: #2e2f42;
+  --baskgr-color: #f4f4fd;
 }
 
 button {
@@ -129,8 +130,11 @@ button {
   color: #2e2f42;
 }
 
-.team-list {
+.team {
   background-color: #f4f4fd;
+}
+.team-item {
+  background-color: #ffffff;
 }
 
 .team-title {
@@ -194,21 +198,6 @@ button {
 .lists-title {
 }
 
-.lists-button-item {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-align: center;
-  color: #ffffff;
-  background-color: #404bbf;
-}
-.lists-button-item:hover,
-.lists-button-item:focus {
-  color: #00ffff;
-}
-
 .lists-button {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -216,13 +205,17 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--brend-color);
+  background-color: var(--baskgr-color);
   border: 1px solid #e7e9fc;
 }
-.lists-button:hover,
+.lists-button:hover {
+  color: #ffffff;
+  background-color: #404bbf;}
+}
 .lists-button:focus {
-  color: #00ffff;
+  color: #ffffff;
+  background-color: #404bbf;}
 }
 
 .lists-cards-item {
