@@ -58,7 +58,7 @@ button {
   color: #404bbf;
 }
 
-.adress {
+.address {
   font-style: normal;
 }
 
@@ -104,12 +104,12 @@ button {
   background-color: #404bbf;
 }
 
-.benefits-title .benefits-subtitle {
+.benefits-subtitle {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--span-color);
 }
 
 .benefits-text {
@@ -129,7 +129,7 @@ button {
   color: #2e2f42;
 }
 
-.team {
+.team-list {
   background-color: #f4f4fd;
 }
 
@@ -140,6 +140,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-subtitle {
@@ -164,21 +165,23 @@ button {
 }
 
 .footer-logo-accent {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: #f4f4fd;
+  text-transform: uppercase;
 }
 
 .footer-logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #f4f4fd;
+  color: var(--brend-color);
+  text-transform: uppercase;
 }
 
 .footer-text {
@@ -192,7 +195,7 @@ button {
 }
 
 .lists-button-item {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -207,7 +210,7 @@ button {
 }
 
 .lists-button {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
