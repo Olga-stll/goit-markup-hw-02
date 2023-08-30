@@ -2,7 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  text-align: left;
 }
 
 :root {
@@ -16,7 +15,6 @@ button {
 }
 
 .heder {
-  border-bottom: 1px solid #e7e9fc;
   background-color: #ffffff;
 }
 
@@ -207,8 +205,8 @@ button {
   text-align: center;
   color: var(--brend-color);
   background-color: var(--baskgr-color);
-  border: 1px solid #e7e9fc;
 }
+
 .lists-button:hover {
   color: #ffffff;
   background-color: #404bbf;
@@ -227,7 +225,7 @@ button {
 .lists-cards-subtitle {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
